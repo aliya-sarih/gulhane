@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+/*انواع الخط*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*`تعديلات لكل الموقع*/
+
+
+:root {
+    --bg-color:#f1f1F1;
+    --bg-secondary: #f1f1f1;
+    --dark-gray:#333;
+  -ms-scrollbar-track-color: black;
+
+}
+body{
+    font-family:"open sans"serif;
+background-color: var(--bg-color);
+    }
+/*cok kulanilan kod */
+.container{
+     max-width: 1500px;
+     margin: auto; 
+     max-height: 3000px;
+     align-items: center;
+}
+#heading span {
+    text-align: center;
+    margin: auto;
+}
+
+
+    h1,
+    h2,
+    h3 {
+        font-family: "oswald",seri;
+    }
+    ul {
+        list-style: none;
+    }
+    a{
+        text-decoration: 
+        none;
+    }
+    .logo{
+        height: 150px;
+        width: 150px;
+      border-radius: 50%;
+    }
+.content {
+        display: flex;
+align-items: center;
+gap: 20px;
+    }
+    #header{
+        background-color:#fff;
+        width: 100%;
+        border: 1px solid #ccc;
+    }
+    #header .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: auto;
+
+    }
+  #header .navbar ul {
+    display: flex;
+  }
+     #header .navbar ul li a {
+    color: rgb(226, 43, 186);
+    font-size: 18px;
+    margin: 0 20px;
+    font-weight: 500;
+    transition: all  0.3s ease;
+     }
+   #header .navbar ul li a:hover {
+    color:rgb(252, 196, 244);
+   }
+   .text-primary{
+    color: rgb(226, 43, 186);
+ 
+   }
+    #menu {
+        background-color:#fff;
+    }
+    #menu .row{
+        display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 2rem;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+    }
+    #menu .row .col .item {
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 0;
+        border: 1px solid #ddd;
+        padding: 15px 20px;
+    }
+    #menu .row .col .item img{
+        height: 100px;
+        width: 100px;
+      
+    }
+    /*tablet+medium secreen*/
+    @media(max-width: 1000px){
+   .logo{
+    margin-right:20px ;
+   }
+ul{
+    margin-left:  20px;
+}
+a{
+    padding: 10px;
+}
+ h1{
+    font-size: 28px;
+ }                   
+h3{
+    padding: 20px;
+}
+                   
+.content-text p{
+    padding:4rem 2rem ;
+           
+}
+#menu .row {
+    display:block;
+max-height: 2500px;
+}
+#iletisim{
+   
+    
+    
+}
+@media(max-width: 600px)
+{
+ .logo{
+    margin-bottom:20px ;
+
+ }   
+ #header .navbar {
+    flex-direction: column;
+  
+ }
+h1{
+    font-size: 18px;
+}
+h3{
+    padding-right: 20px;
+    font-size: 15px;
+}
+#menu .row{
+    display: block;
+    max-height:2500px ;
+}
+#iletisim{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+}
+}
+
+
+
+
+
+
+
+  
+
+/**/
+
+
+
+    /*بعض اعمالنا*/
+    #isimiz .img-gallery img {
+        
+        height: 200px;
+        width: 200px;
+        border-radius: 15px;
+        margin: 20px;
+    }
+    #iletisim{
+        background-color: #fff;
+    }
+    
+    
+    
